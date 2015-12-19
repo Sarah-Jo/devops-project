@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+ #!/usr/bin/env ruby
 #^syntax detection
 
 site "https://supermarket.getchef.com/api/v1"
@@ -7,3 +7,6 @@ cookbook 'swap'
 cookbook 'swap_tuning'
 cookbook 'chef-client'
 cookbook 'chef-server'
+
+cookbook 'jenkins'
+cookbook 'postfix' # to send email with Jenkins reports
